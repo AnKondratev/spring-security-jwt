@@ -22,7 +22,7 @@
 <li><strong>Spring Boot</strong>: Framework used for creating stand-alone, production-grade Spring-based applications.</li>
 <li><strong>Spring Security</strong>: Provides security features, including authentication and authorization.</li>
 <li><strong>JWT (JSON Web Tokens)</strong>: Used for securing APIs by transmitting information as a JSON object.</li>
-<li><strong>H2 Database</strong>: In-memory database for testing purposes.</li>
+<li><strong>PostgeSQL</strong>: In-memory database for testing purposes.</li>
 <li><strong>Lombok</strong>: For reducing boilerplate code in model classes.</li>
 </ul>
 <h2 id="setup-and-installation">Setup and Installation</h2>
