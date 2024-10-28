@@ -32,7 +32,6 @@ public class ProductService implements ProductServiceInterface {
 
     @Override
     public Product updateProduct(Product product) {
-
         return repository.save(product);
     }
 }
