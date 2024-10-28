@@ -10,3 +10,18 @@ spring:
       ddl-auto: create-drop
     database: postgresql
     show-sql: true
+
+server:
+  port: 8081
+  ssl:
+    enabled: true
+    key-store: classpath:keystore.p12
+    key-store-password: 13841384
+    key-store-type: PKCS12
+    key-alias: andrey
+
+logging:
+  file:
+    name: logs/app.log
+  level:
+    root: INFO
