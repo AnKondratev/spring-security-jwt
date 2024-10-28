@@ -43,18 +43,18 @@ You can run the application directly from your IDE or use the command:</li>
 <pre><code class="bash language-bash hljs">   mvn spring-boot:run</code></pre>
 <ol start="4">
 <li><strong>Access the application</strong>:<br>
-The application should be running at <code>http://localhost:8080</code>.</li>
+The application should be running at <code>https://localhost:8081</code>.</li>
 </ol>
 <h2 id="usage">Usage</h2>
 <h3 id="user-registration">User Registration</h3>
-<p>To register a new user, send a POST request to <code>http://localhost:8080/auth/signup</code> with the following JSON body:</p>
+<p>To register a new user, send a POST request to <code>https://localhost:8081/auth/signup</code> with the following JSON body:</p>
 <pre><code class="json language-json hljs"><span class="hljs-punctuation">{</span>
   <span class="hljs-attr">"name"</span><span class="hljs-punctuation">:</span> <span class="hljs-string">"username"</span><span class="hljs-punctuation">,</span>
   <span class="hljs-attr">"password"</span><span class="hljs-punctuation">:</span> <span class="hljs-string">"password"</span><span class="hljs-punctuation">,</span>
   <span class="hljs-attr">"role"</span><span class="hljs-punctuation">:</span> <span class="hljs-string">"USER"</span>  <span class="hljs-comment">// or "MODERATOR" or "SUPER_ADMIN"</span>
 <span class="hljs-punctuation">}</span></code></pre>
 <h3 id="user-sign-in">User Sign In</h3>
-<p>To sign in and receive a JWT token, send a POST request to <code>http://localhost:8080/auth/signin</code> with the following JSON body:</p>
+<p>To sign in and receive a JWT token, send a POST request to <code>https://localhost:8081/auth/signin</code> with the following JSON body:</p>
 <pre><code class="json language-json hljs"><span class="hljs-punctuation">{</span>
   <span class="hljs-attr">"name"</span><span class="hljs-punctuation">:</span> <span class="hljs-string">"username"</span><span class="hljs-punctuation">,</span>
   <span class="hljs-attr">"password"</span><span class="hljs-punctuation">:</span> <span class="hljs-string">"password"</span>
